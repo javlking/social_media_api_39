@@ -35,6 +35,7 @@ app.register_blueprint(hashtag_bp)
 app.register_blueprint(photo_bp)
 app.register_blueprint(user_bp)
 app.register_blueprint(post_bp)
+
 # Swagger
 app.register_blueprint(swagger_bp)
 
